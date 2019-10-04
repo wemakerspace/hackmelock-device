@@ -24,7 +24,11 @@ Installation
 -------------
 
 ```
-git clone https://github.com/smartlockpicking/hackmelock-device/
+git clone https://github.com/wemakerspace/hackmelock-device/
+cd hackmelock-device
+npm install
+# Give Node.js access to Bluetooth
+sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
 ```
 
 Running
