@@ -4,7 +4,7 @@ var util = require('util');
 process.env.BLENO_ADVERTISING_INTERVAL = 20;
 
 var iBeaconUuid = '6834636b-6d33-4c30-634b-38454163304e';
-var bleno = require('bleno');
+var bleno = require('@abandonware/bleno');
 var hackmelock = require('./hackmelock');
 var HackmelockService = require('./hackmelock-service');
 
