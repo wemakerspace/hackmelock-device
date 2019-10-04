@@ -1,5 +1,5 @@
 var util = require('util');
-var bleno = require('bleno');
+var bleno = require('@abandonware/bleno');
 var crypto = require('crypto');
 var async = require('async');
 

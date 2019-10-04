@@ -1,5 +1,5 @@
 var util = require('util');
-var bleno = require('bleno');
+var bleno = require('@abandonware/bleno');
 //var hackmelock = require('./hackmelock');
 
 function HackmelockDatatransferCharacteristic(hackmelock) {
